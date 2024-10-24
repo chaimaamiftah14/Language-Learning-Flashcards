@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Language Learning Flashcards</h1>
+        <div id="flashcard" class="card">
+            <p id="card-text"></p>
+        </div>
+        <input type="text" id="user-input" class="input" placeholder="Type your answer here..." />
+        <div class="button-container">
+            <button class="button" onclick="checkAnswer()">Check Answer</button>
+            <button class="button" onclick="nextCard()">Next Card</button>
+            <button class="button" onclick="resetCards()">Reset</button>
+        </div>
+        <p id="result" class="result"></p>
+        <p id="score" class="score"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

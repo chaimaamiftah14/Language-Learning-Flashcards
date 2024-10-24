@@ -1,0 +1,45 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #c1f0f6); /* Light greenish gradient */
+}
+
+/* Container */
+.container {
+    background-color: #f0fff0; /* Light green */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Flashcard */
+.card {
+    border: 2px solid #009688; /* Teal color for the border */
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 20px; /* Larger font for better readability */
+}
+
+/* Button Styles */
+.button {
+    background-color: #388E3C; /* Dark green for the button */
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    margin: 5px 0; /* Space between buttons */
+}
+
+.button:hover {
+    background-color: #1B5E20; /* Darker green on hover */
+}
